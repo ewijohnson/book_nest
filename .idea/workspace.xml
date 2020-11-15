@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfac6c19-d583-45ea-a3c6-6fd6029b8a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/booknest/migrations/0002_auto_20201115_1059.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booknest/migrations/0003_auto_20201115_1116.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booknest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booknest/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -70,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605394604391</updated>
       <workItem from="1605394606278" duration="9842000" />
-      <workItem from="1605453485761" duration="3709000" />
+      <workItem from="1605453485761" duration="6851000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1605394815781</created>
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605418070992</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added __str__ methods for displaying model names">
+      <created>1605457589750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605457589750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,21 +150,22 @@
     <MESSAGE value="added superuser and registered to admin.py" />
     <MESSAGE value="added verbose and verbose plural names to meta subclass of models" />
     <MESSAGE value="updated a lot of models, added unique constraints, removed some blank = Trues, removed Publication and Physical Description, erased and redid database" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated a lot of models, added unique constraints, removed some blank = Trues, removed Publication and Physical Description, erased and redid database" />
+    <MESSAGE value="added __str__ methods for displaying model names" />
+    <option name="LAST_COMMIT_MESSAGE" value="added __str__ methods for displaying model names" />
   </component>
   <component name="WindowStateProjectService">
     <state x="883" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605417909102">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
     <state x="883" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.930@0.0.1707.930" timestamp="1605417909102" />
-    <state x="134" y="63" key="CommitChangelistDialog2" timestamp="1605418070193">
+    <state x="134" y="63" key="CommitChangelistDialog2" timestamp="1605457588956">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="134" y="63" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605418070193" />
-    <state x="932" y="218" key="FileChooserDialogImpl" timestamp="1605453493096">
+    <state x="134" y="63" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605457588956" />
+    <state x="932" y="218" key="FileChooserDialogImpl" timestamp="1605460539497">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="932" y="218" key="FileChooserDialogImpl/0.0.1707.930@0.0.1707.930" timestamp="1605453493096" />
+    <state x="932" y="218" key="FileChooserDialogImpl/0.0.1707.930@0.0.1707.930" timestamp="1605460539497" />
     <state x="1030" y="361" key="Github.ShareDialog" timestamp="1605394655678">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
@@ -164,10 +174,10 @@
       <screen x="0" y="0" width="1707" height="930" />
     </state>
     <state x="966" y="168" key="Github.UntrackedFilesDialog/0.0.1707.930@0.0.1707.930" timestamp="1605394663681" />
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605418074909">
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605457594460">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605418074909" />
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605457594460" />
     <state x="969" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605394729682">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
