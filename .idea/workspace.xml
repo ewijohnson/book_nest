@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfac6c19-d583-45ea-a3c6-6fd6029b8a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/booknest/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605394604391</updated>
-      <workItem from="1605394606278" duration="4231000" />
+      <workItem from="1605394606278" duration="4570000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1605394815781</created>
@@ -79,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605411880684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first migration">
+      <created>1605412319008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605412319008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first migration">
+      <created>1605412350124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605412350124</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,13 +102,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore added" />
     <MESSAGE value="added models, first draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="added models, first draft" />
+    <MESSAGE value="first migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="first migration" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="31" key="CommitChangelistDialog2" timestamp="1605411879812">
+    <state x="776" y="31" key="CommitChangelistDialog2" timestamp="1605412349550">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="776" y="31" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605411879812" />
+    <state x="776" y="31" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605412349550" />
     <state x="932" y="218" key="FileChooserDialogImpl" timestamp="1605409305436">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
@@ -107,10 +122,10 @@
       <screen x="0" y="0" width="1707" height="930" />
     </state>
     <state x="966" y="168" key="Github.UntrackedFilesDialog/0.0.1707.930@0.0.1707.930" timestamp="1605394663681" />
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605411888613">
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605412357792">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605411888613" />
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605412357792" />
     <state x="969" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605394729682">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
