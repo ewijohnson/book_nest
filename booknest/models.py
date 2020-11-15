@@ -39,7 +39,7 @@ class Work(models.Model):
 
     def __str__(self):
         result = ''
-        if self.main_entry != '':
+        if self.main_entry != None:
             result = '%s (%s)' % (self.work_title, self.main_entry)
         else:
             result = '%s' % self.work_title
@@ -175,7 +175,18 @@ class Book(models.Model):
                                     on_delete=models.PROTECT)
 
     def __str__(self):
-        return '%s' % self.work
+        result = ''
+        if self.book_edition != '':
+            if self.book_language != '':
+                result = '%s, %s, %s' % (self.work, self.book_edition, self.book_language)
+            else:
+                result = '%s, %s' % (self.work, self.book_edition)
+        else:
+            if self.book_language != '':
+                result = '%s, %s' % (self.work, self.book_language)
+            else:
+                result = '%s' % self.work
+        return result
 
     class Meta:
         ordering = ['work']
@@ -213,7 +224,7 @@ class Holding(models.Model):
     collection = models.ForeignKey(Collection, related_name='holdings', on_delete=models.PROTECT)
 
     def __str__(self):
-        return '%s (%s)' % (self.book, self.collection)
+        return '%s / LOCATION: %s' % (self.book, self.collection)
 
     class Meta:
         ordering = ['book', 'collection']
@@ -221,11 +232,11 @@ class Holding(models.Model):
 
 class Item(models.Model):
     item_id = models.AutoField(primary_key=True)
-    item_barcode = models.IntegerField(blank=True, default='')
+    item_barcode = models.CharField(max_length=50, blank=True, default='')
     item_callno = models.CharField(max_length=50, blank=True, default='')
-    item_copy = models.IntegerField(blank=True, default='')
+    item_copy = models.IntegerField(null=True, blank=True, default=None)
     item_owner = models.CharField(max_length=255, blank=True, default='')
-    item_receiving_date = models.DateField(blank=True, default=datetime.now)
+    item_receiving_date = models.DateField(null=True, blank=True, default=None)
     item_enum_a = models.CharField(max_length=255, blank=True, default='')
     item_enum_b = models.CharField(max_length=255, blank=True, default='')
     item_enum_c = models.CharField(max_length=255, blank=True, default='')
@@ -238,12 +249,12 @@ class Item(models.Model):
     def __str__(self):
         result = ''
         if self.item_description != '':
-            if self.item_copy != '':
+            if self.item_copy != None:
                 result = '%s--%s, copy %s' % (self.holding, self.item_description, self.item_copy)
             else:
                 result = '%s--%s' % (self.holding, self.item_description)
         else:
-            if self.item_copy != '':
+            if self.item_copy != None:
                 result = '%s, copy %s' % (self.holding, self.item_copy)
             else:
                 result = '%s' % self.holding
