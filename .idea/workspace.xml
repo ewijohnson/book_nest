@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfac6c19-d583-45ea-a3c6-6fd6029b8a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/booknest/migrations/0002_auto_20201114_2205.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booknest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/booknest/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booknest/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booknest/migrations/0002_auto_20201114_2205.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/booknest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booknest/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -67,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605394604391</updated>
-      <workItem from="1605394606278" duration="5207000" />
+      <workItem from="1605394606278" duration="9503000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1605394815781</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605412750051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added verbose and verbose plural names to meta subclass of models">
+      <created>1605413195385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605413195385</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,13 +124,18 @@
     <MESSAGE value="added models, first draft" />
     <MESSAGE value="first migration" />
     <MESSAGE value="added superuser and registered to admin.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added superuser and registered to admin.py" />
+    <MESSAGE value="added verbose and verbose plural names to meta subclass of models" />
+    <option name="LAST_COMMIT_MESSAGE" value="added verbose and verbose plural names to meta subclass of models" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="63" key="CommitChangelistDialog2" timestamp="1605412749101">
+    <state x="883" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605417894737">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="788" y="63" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605412749101" />
+    <state x="883" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.930@0.0.1707.930" timestamp="1605417894737" />
+    <state x="788" y="63" key="CommitChangelistDialog2" timestamp="1605413194554">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="788" y="63" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605413194554" />
     <state x="932" y="218" key="FileChooserDialogImpl" timestamp="1605409305436">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
@@ -134,13 +148,17 @@
       <screen x="0" y="0" width="1707" height="930" />
     </state>
     <state x="966" y="168" key="Github.UntrackedFilesDialog/0.0.1707.930@0.0.1707.930" timestamp="1605394663681" />
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605412758267">
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605413199731">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605412758267" />
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605413199731" />
     <state x="969" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605394729682">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
     <state x="969" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.930@0.0.1707.930" timestamp="1605394729682" />
+    <state x="814" y="207" width="672" height="678" key="search.everywhere.popup" timestamp="1605416504020">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="814" y="207" width="672" height="678" key="search.everywhere.popup/0.0.1707.930@0.0.1707.930" timestamp="1605416504020" />
   </component>
 </project>
