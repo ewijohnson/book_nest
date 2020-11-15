@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfac6c19-d583-45ea-a3c6-6fd6029b8a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/booknest/migrations/0002_auto_20201114_2205.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booknest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booknest/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../game_closet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -63,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605394604391</updated>
-      <workItem from="1605394606278" duration="4570000" />
+      <workItem from="1605394606278" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1605394815781</created>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605412350124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added superuser and registered to admin.py">
+      <created>1605412750051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605412750051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,13 +114,14 @@
     <MESSAGE value="gitignore added" />
     <MESSAGE value="added models, first draft" />
     <MESSAGE value="first migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="first migration" />
+    <MESSAGE value="added superuser and registered to admin.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added superuser and registered to admin.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="31" key="CommitChangelistDialog2" timestamp="1605412349550">
+    <state x="788" y="63" key="CommitChangelistDialog2" timestamp="1605412749101">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="776" y="31" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605412349550" />
+    <state x="788" y="63" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1605412749101" />
     <state x="932" y="218" key="FileChooserDialogImpl" timestamp="1605409305436">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
@@ -122,10 +134,10 @@
       <screen x="0" y="0" width="1707" height="930" />
     </state>
     <state x="966" y="168" key="Github.UntrackedFilesDialog/0.0.1707.930@0.0.1707.930" timestamp="1605394663681" />
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605412357792">
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605412758267">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605412357792" />
+    <state x="744" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1605412758267" />
     <state x="969" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605394729682">
       <screen x="0" y="0" width="1707" height="930" />
     </state>

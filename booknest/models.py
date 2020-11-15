@@ -2,6 +2,11 @@ from django.db import models
 
 
 class MainEntry(models.Model):
+
+    class Meta:
+        verbose_name = 'Main Entry'
+        verbose_name_plural = 'Main Entries'
+
     main_entry_id = models.AutoField(primary_key=True)
     main_entry_name = models.CharField(max_length=255, blank=True, default='')
     main_entry_role = models.CharField(max_length=50, blank=True, default='')
@@ -25,6 +30,11 @@ class Publication(models.Model):
 
 
 class PhysicalDescription(models.Model):
+
+    class Meta:
+        verbose_name = 'Physical Description'
+        verbose_name_plural = 'Physical Descriptions'
+
     physical_id = models.AutoField(primary_key=True)
     physical_extent = models.CharField(max_length=100, blank=True, default='')
     physical_details = models.CharField(max_length=100, blank=True, default='')
@@ -33,6 +43,10 @@ class PhysicalDescription(models.Model):
 
 
 class Series(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Series'
+
     series_id = models.AutoField(primary_key=True)
     series_name = models.CharField(max_length=255, blank=True, default='')
     series_vol_num = models.CharField(max_length=50, blank=True, default='')
@@ -46,6 +60,11 @@ class Subject(models.Model):
 
 
 class AddedEntry(models.Model):
+
+    class Meta:
+        verbose_name = 'Added Entry'
+        verbose_name_plural = 'Added Entries'
+
     added_entry_id = models.AutoField(primary_key=True)
     added_entry_name = models.CharField(max_length=255, blank=True, default='')
     added_entry_type = models.CharField(max_length=255, blank=True, default='')
